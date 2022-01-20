@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  background-color: rgb(84, 224, 243);
+  align-items: center;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.App-header {
+  background-color: lawngreen;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  flex: 1;
+  order: 0;
+}
+.Button {
+  color: black;
+  background-color: white;
+  border: 1px solid blue;
+  border-radius: 12px;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  margin: 5px;
+  align-items: center;
+  transition-duration: 0.4s;
+  display: inline-block;
+}
+.Button:hover {
+  color: tomato;
+  background-color: firebrick;
+}
+.playerName {
+  flex: 1;
+  color: red;
+  text-decoration: underline;
+}
+.displayList {
+  background-color: black;
+  color: white;
+  float: left;
+  padding-right: 3%;
+  padding-left: 3%;
+}
+
+/* h1 {
+  text-align: center;
+} */
+.winner {
+  color: brown;
+}
+h2 {
+  text-align: center;
+  color: purple;
+}
+a {
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+/* div{
+text-align: right;
+color: lightseagreen;
+position: inherit;} */
+
+/* .buttonDiv{
+  color: blue;
+  background-color: black;
+  align-items: center;
+  display: run-in;
+} */
